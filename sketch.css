@@ -1,0 +1,41 @@
+.parents {
+    height: 480px;
+    width: 480px;
+    box-shadow: inset 2px -5px 11px rgba(80, 92, 51, 0.17);
+}
+
+.content {
+    outline: 0.1px solid;
+    float: left;
+}
+
+.complete {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+  background-color: black; /* Green */
+  border: circular;
+  border-radius: 2%;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
